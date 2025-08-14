@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "b5eb30109507d29b",
+    "type": "split",
+    "children": [
+      {
+        "id": "fedcb721f9e3a811",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6d3ef66c330be5f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Papers/brain-tumour.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "brain-tumour"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1b9faa0565cf5673",
+    "type": "split",
+    "children": [
+      {
+        "id": "faa8419488dafd0d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e459b8af0242bb2f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "db57cce370784096",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "460bf249b9daa499",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7fecce4379b7eaa5",
+    "type": "split",
+    "children": [
+      {
+        "id": "69ebad4f0f1f618f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d52dbe83969f213e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Papers/brain-tumour.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for brain-tumour"
+            }
+          },
+          {
+            "id": "134d633947eae2e8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Papers/brain-tumour.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from brain-tumour"
+            }
+          },
+          {
+            "id": "90c958938d494794",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "34959abd2439c01c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Papers/brain-tumour.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of brain-tumour"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b6d3ef66c330be5f",
+  "lastOpenFiles": [
+    "README.md",
+    "Research/research_papers/pvnet.md",
+    "Research/research_papers/Posenet.md",
+    "Research/research_papers/how to read a paper.md"
+  ]
+}

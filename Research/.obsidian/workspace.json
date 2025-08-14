@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "6910804eb018cc9b",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8225ef8136a18aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e6a3f5e1801b1439",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "research_papers/pvnet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pvnet"
+            }
+          },
+          {
+            "id": "507d3eb493d27508",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "4af09ff52474a269",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "33d782c9efa0131b",
+    "type": "split",
+    "children": [
+      {
+        "id": "7bcf9bfe96b66e9b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9de0f42972f9a4c2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f3d7c2e2c2ca8a03",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3570a5b8a6fef057",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "26a0a4a4f8427d85",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e2fb54aa739eed8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2211b86d4ff5bc0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "research_papers/pvnet.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for pvnet"
+            }
+          },
+          {
+            "id": "8022458feb3fd141",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "research_papers/pvnet.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from pvnet"
+            }
+          },
+          {
+            "id": "7e7296758e05f044",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "51344834631ea04d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "research_papers/pvnet.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of pvnet"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4af09ff52474a269",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "Untitled 1.md",
+    "research_papers/pvnet.md",
+    "Pasted image 20250813141756.png",
+    "Pasted image 20250813141644.png",
+    "Pasted image 20250813140643.png",
+    "research_papers/Posenet.md",
+    "research_papers/how to read a paper.md",
+    "Untitled 2.md",
+    "Pasted image 20250813133832.png",
+    "Pasted image 20250813133813.png",
+    "Pasted image 20250813133732.png",
+    "2025-08-13.md",
+    "Welcome.md",
+    "Untitled.canvas",
+    "research_papers"
+  ]
+}
