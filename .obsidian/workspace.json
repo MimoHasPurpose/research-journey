@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fedcb721f9e3a811",
+        "id": "7e75f0318867477c",
         "type": "tabs",
         "children": [
           {
-            "id": "b6d3ef66c330be5f",
+            "id": "0ab537017c725e84",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Papers/brain-tumour.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "brain-tumour"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -92,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/brain-tumour.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for brain-tumour"
+              "title": "Backlinks"
             }
           },
           {
@@ -111,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/brain-tumour.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from brain-tumour"
+              "title": "Outgoing links"
             }
           },
           {
@@ -140,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/brain-tumour.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of brain-tumour"
+              "title": "Outline"
             }
           }
         ]
@@ -166,9 +161,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6d3ef66c330be5f",
+  "active": "0ab537017c725e84",
   "lastOpenFiles": [
+    "Papers/brain-tumour.pdf",
+    "Extra/NeRF.md",
     "README.md",
+    "image.png",
+    "Extra/dynamic-relu.md",
+    "Untitled.md",
+    "Extra",
     "Research/research_papers/pvnet.md",
     "Research/research_papers/Posenet.md",
     "Research/research_papers/how to read a paper.md"
