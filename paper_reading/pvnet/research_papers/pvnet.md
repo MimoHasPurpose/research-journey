@@ -57,6 +57,7 @@
 
 Instead of directly obtaining the pose from an image, **keypoint-based methods adopt a two-stage pipeline: they first predict 2D keypoints of the object and then compute the pose through 2D-3D correspondences with a PnP algorithm.**
 
+
 ## Proposed approach:
 
 - Specifically, 6D pose is represented by a rigid transformation (R;t) from the object coordinate system to the camera coordinate system, where R represents
@@ -67,6 +68,24 @@ Instead of directly obtaining the pose from an image, **keypoint-based methods a
     
 - Specifically, our method uses a Pixel-wise Voting Network (PVNet) to detect 2D keypoints in a RANSAC-like fashion, which robustly handles occluded and truncated objects. The RANSAC-based voting also gives a spatial probability dis tribution of each keypoint, allowing us to estimate the 6D pose with an uncertainty-driven PnP.
     
+
+### **voting based keypoint localization:**
+
+PVNet predicts pixel wise object labels and unit vectors that represent the direc tion from every pixel to every keypoint.
+
+Given the direc tions to a certain object keypoint from all pixels belong ing to that object, we generate hypotheses of 2D locations for that keypoint as well as the confidence scores through RANSAC-based voting
+
+. Based on these hypotheses, we es timate the mean and covariance of the spatial probability distribution for each keypoint.
+
+More specifically, PVNet performs two tasks: seman tic segmentation and vector-field prediction. For a pixel p, PVNet outputs the semantic label that associates it with a specific object and the unit vector vk(p) that represents the direction from the pixel p to a 2D keypoint xk of the object. The vector vk(p) is defined as
+
+![](https://r2.noteddy.com/images/0e90b306-e298-4ec6-9342-6240ced33bfa.png)
+
+Specifically, the voting score wk, i of a hypothesis hk i is defined as
+
+some
+
+![](https://r2.noteddy.com/images/51da5f47-461f-4f98-9d0d-6d8001bc2462.png)
 
 ### **voting based keypoint localization:**
 
@@ -147,6 +166,10 @@ Now let's see...
 ![[Pasted image 20250813133832.png]]
 ![[Pasted image 20250813141644.png]]
 ![[Pasted image 20250813141756.png]]
+
+## Conclusion:
+
+- Given a 480 640 image, our method runs at 25 fps on a desktop with an Intel i7 3.7GHz CPU and a GTX 1080 Ti GPU, which is efficient for real-time pose estima tion. Specifically, our implementation takes 10.9 ms for data loading, 3.3 ms for network forward propagation, 22.8 ms for the RANSAC-based voting scheme, and 3.1 ms for the uncertainty-driven PnP.
 ## main idea: 
 
 PVNet predicts unit vectors that represent directions from each pixel of the object towards the keypoints. **These directions then vote for the keypoint locations based on RANSAC [12]**
