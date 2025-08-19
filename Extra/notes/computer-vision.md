@@ -1,0 +1,29 @@
+topics i have read:
+using open-cv for image processing and cv tasks.
+- image processing
+	- gaussian blur
+	- dilate
+	- canny
+	- erose
+	- image resizing
+	- frame extraction from video
+	- image addition
+	- image basics
+	- image types
+	- timestamps
+	- frames/second
+- edge detection using sobel
+- image smoothing
+- save architecture
+- save weights
+- background substraction method.
+- yolo
+	- yolo task model arguments
+- semantic segmentation: boundaries of the object
+-  intersection over union: common bounding box over total
+- mean average precision
+- object detection : detect the object and fit a box over the object.
+- bounding box
+- coco and yolo
+- 3d vision, videos, generative models.
+- pose-estimation

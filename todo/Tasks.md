@@ -1,5 +1,6 @@
 - make a common blog with ritik
 - make a ppt ( sir ppt kaise dena hian!)( information oriented)
-- [A Gentle Introduction to Lambda Calculus - Part 1: Syntax](https://lucasfcosta.com/2018/07/29/An-Introduction-to-Lambda-Calculus-Part-1.html)
-- [Introduction to Lambda Calculus](https://serokell.io/blog/untyped-lambda-calculus)
-- [ICML Poster HyperFields: Towards Zero-Shot Generation of NeRFs from Text](https://icml.cc/virtual/2024/poster/34847)
+- setup a few experiments with yolo
+- goto college and register for internships.
+-  nerf-> ann or choose diff paper
+- only diffusion for aiml 
