@@ -4,21 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "2980e72bf9a83753",
+        "id": "806a728c37c8ed12",
         "type": "tabs",
+        "dimension": 49.09228441754917,
         "children": [
           {
-            "id": "e7c77ba62ef32f3b",
+            "id": "7553e0fe7a04be2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paper_reading/nerf/nerf.md",
+                "file": "computer-vision-research/phase-1/notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nerf"
+              "title": "notes"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0fa10ad5521f6f02",
+        "type": "tabs",
+        "dimension": 50.90771558245083,
+        "children": [
+          {
+            "id": "bfeedefb16d3aeb6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "computer-vision-research/phase-1/Phase-I.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Phase-I"
             }
           }
         ]
@@ -78,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7fecce4379b7eaa5",
@@ -157,46 +178,52 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "e7c77ba62ef32f3b",
+  "active": "7553e0fe7a04be2a",
   "lastOpenFiles": [
-    "Extra/notes/computer-vision.md",
-    "paper_reading/nerf/nerf.md",
-    "Pasted image 20250819060136.png",
-    "Pasted image 20250819060118.png",
+    "computer-vision-research/phase-1/Phase-I.pdf",
+    "computer-vision-research/phase-1/notes.md",
+    "computer-vision-research/phase-1/Untitled.base",
     "Pasted image 20250819060045.png",
-    "paper_reading/nerf/Pasted image 20250819055906.png",
-    "paper_reading/diffusion_models/notes.md",
+    "computer-vision-research/phase-1",
+    "Pasted image 20250819060118.png",
+    "Pasted image 20250819060136.png",
     "image.png",
-    "todo/Tasks.md",
+    "computer-vision-research/quaterions/quaterions.md",
+    "computer-vision-research/quaterions/Pasted image 20250821123129.png",
+    "computer-vision-research/quaterions/Pasted image 20250821123111.png",
+    "computer-vision-research/quaterions/Pasted image 20250821123024.png",
+    "computer-vision-research/quaterions/Pasted image 20250821122938.png",
+    "computer-vision-research/quaterions/Pasted image 20250821122905.png",
+    "computer-vision-research/quaterions/Pasted image 20250821122847.png",
+    "computer-vision-research/quaterions/Untitled.base",
+    "computer-vision-research/quaterions/Untitled 1.base",
+    "computer-vision-research/quaterions",
+    "Untitled.base",
     "README.md",
-    "paper_reading/nerf/Pasted image 20250819055842.png",
-    "paper_reading/nerf/Pasted image 20250819055951.png",
-    "paper_reading/nerf/Pasted image 20250819055938.png",
-    "paper_reading/nerf/Pasted image 20250819055732.png",
+    "2025-08-21.md",
+    "computer-vision-research",
+    "paper_reading/nerf/nerf.md",
+    "todo/Tasks.md",
+    "Extra/notes/computer-vision.md",
+    "paper_reading/diffusion_models/notes.md",
     "paper_reading/nerf/full_nerf_example.ipynb",
     "paper_reading/nerf/Unconfirmed 479512.crdownload",
-    "paper_reading/Papers/control-your-car.pdf",
-    "good_papers",
-    "paper_reading/Papers/brain-tumour-detection.pdf",
     "placement/notes.md",
     "Extra/notes/lambda calculus.md",
     "Extra/notes/teaching strategy.md",
     "Extra/notes/useful articles.md",
     "Extra/notes/YOLO.md",
-    "paper_reading/Papers/survey-self-driving-cars.pdf",
     "Untitled.md",
-    "placement",
-    "Extra/notes",
-    "paper_reading/diffusion_models",
-    "paper_reading/nerf",
     "Extra/NeRF.md",
     "Extra/dynamic-relu.md",
     "paper_reading/pvnet/research_papers/pvnet.md",
