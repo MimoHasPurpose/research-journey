@@ -1,12 +1,32 @@
-1. machine vision system
-2. camera rotation
-3. camera calibration
-4. camera matrix
-5. euler angle
-6. gimbal lock
-7. quaternions
-8. direction cosine matrix
-9. 6dof
-10. key-points
-11. coordinate frames, transformations
-12. revision of libraries and image processing
+- [x] machine vision system
+- [x] camera rotation
+- [x] camera calibration
+- [x] camera matrix
+- [x] euler angle
+- [x] gimbal lock
+- [x] quaternions
+- [x] direction cosine matrix
+- [x] 6dof
+- [x] key-points
+- [x] coordinate frames, transformations
+- [ ] revision of libraries and image processing
+
+
+
+---
+
+## Important notes below:
+
+## World coordinate system
+ Its major functions are:  
+(1) Defining the 3D coordinates of objects;  
+(2) Determining the position of calibration objects based on the origin during calibration;  
+(3) Providing the position of the camera coordinate system relative to the world coordinate system, thereby determining the coordinate relationship between two or more cameras.
+![[Pasted image 20250823180407.png]]
+
+![[Pasted image 20250823180726.png]]
+
+![[Pasted image 20250823180735.png]]
+
+
+2. camera rotation with respect to the object:
