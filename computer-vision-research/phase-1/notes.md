@@ -9,7 +9,9 @@
 - [x] 6dof
 - [x] key-points
 - [x] coordinate frames, transformations
-- [ ] revision of libraries and image processing
+- [x] revision of libraries and image processing
+- [ ] quaternions
+
 
 
 

@@ -6,7 +6,6 @@
       {
         "id": "6c79b027a8be8150",
         "type": "tabs",
-        "dimension": 47.579425113464445,
         "children": [
           {
             "id": "bf2bdd8ed4c88685",
@@ -14,49 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paper_reading/nerf/nerf.md",
+                "file": "paper_reading/nerf-ppt/nerf(neural radiance fields).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nerf"
+              "title": "nerf(neural radiance fields)"
             }
           }
         ]
-      },
-      {
-        "id": "8bf75d0c6f096d17",
-        "type": "tabs",
-        "dimension": 52.420574886535555,
-        "children": [
-          {
-            "id": "a3c2bd3d1b4e44b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer-vision-research/phase-1/notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "notes"
-            }
-          },
-          {
-            "id": "d7ed054851f7e77e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "computer-vision-research/phase-1/Phase-I.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Phase-I"
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -205,9 +170,28 @@
   },
   "active": "bf2bdd8ed4c88685",
   "lastOpenFiles": [
-    "computer-vision-research/phase-1/Phase-I.pdf",
-    "computer-vision-research/phase-1/notes.md",
     "paper_reading/nerf/nerf.md",
+    "paper_reading/nerf-ppt/nerf(neural radiance fields).md",
+    "paper_reading/nerf-ppt",
+    "paper_reading/pvnet/research_papers/how to read a paper.md",
+    "placement/notes.md",
+    "todo/Tasks.md",
+    "README.md",
+    "paper_reading/diffusion_models/notes.md",
+    "paper_reading/pvnet/research_papers/Posenet.md",
+    "Extra/notes/useful articles.md",
+    "Extra/notes/teaching strategy.md",
+    "computer-vision-research/phase-1/notes.md",
+    "computer-vision-research/phase-1/quaterions/quaterions.md",
+    "computer-vision-research/phase-2/notes..md",
+    "computer-vision-research/phase-2/Pasted image 20250826070531.png",
+    "Extra/notes/YOLO.md",
+    "Extra/notes/Untitled 1.md",
+    "Extra/notes/Untitled.md",
+    "computer-vision-research/phase-2",
+    "Extra/notes/lambda calculus.md",
+    "Extra/notes/computer-vision.md",
+    "computer-vision-research/phase-1/Phase-I.pdf",
     "computer-vision-research/phase-1/Untitled 1.base",
     "computer-vision-research/phase-1/Untitled.base",
     "paper_reading/nerf/Pasted image 20250819060118.png",
@@ -215,34 +199,19 @@
     "computer-vision-research/phase-1/Pasted image 20250823180735.png",
     "computer-vision-research/phase-1/Pasted image 20250823180726.png",
     "computer-vision-research/phase-1/Pasted image 20250823180407.png",
-    "README.md",
     "Untitled.base",
     "Extra/image.png",
-    "paper_reading/diffusion_models/notes.md",
     "paper_reading/nerf/Pasted image 20250819060136.png",
-    "todo/Tasks.md",
     "computer-vision-research/phase-1",
-    "computer-vision-research/phase-1/quaterions/quaterions.md",
     "computer-vision-research/phase-1/quaterions/Pasted image 20250821123129.png",
     "computer-vision-research/phase-1/quaterions/Pasted image 20250821123111.png",
-    "computer-vision-research/phase-1/quaterions/Pasted image 20250821123024.png",
     "computer-vision-research/quaterions/Untitled.base",
     "computer-vision-research/quaterions/Untitled 1.base",
     "computer-vision-research/phase-1/quaterions",
     "2025-08-21.md",
-    "computer-vision-research",
-    "Extra/notes/computer-vision.md",
-    "paper_reading/nerf/full_nerf_example.ipynb",
-    "placement/notes.md",
-    "Extra/notes/lambda calculus.md",
-    "Extra/notes/teaching strategy.md",
-    "Extra/notes/useful articles.md",
-    "Extra/notes/YOLO.md",
     "Untitled.md",
     "Extra/NeRF.md",
     "Extra/dynamic-relu.md",
-    "paper_reading/pvnet/research_papers/pvnet.md",
-    "paper_reading/pvnet/research_papers/Posenet.md",
-    "paper_reading/pvnet/research_papers/how to read a paper.md"
+    "paper_reading/pvnet/research_papers/pvnet.md"
   ]
 }

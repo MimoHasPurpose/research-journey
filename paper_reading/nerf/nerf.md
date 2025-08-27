@@ -1,6 +1,6 @@
 - [ ] backward tracing 
 - [ ] volume rendering
-- [ ] 
+ 
 
 [NeRF: Neural Radiance Fields](https://www.matthewtancik.com/nerf)
 [2003.08934](https://arxiv.org/pdf/2003.08934)
