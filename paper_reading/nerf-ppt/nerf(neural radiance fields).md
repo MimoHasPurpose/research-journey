@@ -1,4 +1,7 @@
+[tiny-nerf-code](https://colab.research.google.com/github/bmild/nerf/blob/master/tiny_nerf.ipynb)
 
+
+![[78472235-d1010d80-7769-11ea-9be9-51365180e063.gif]]
 ## 1/10 
 ### prerequisites
 * world coordinate frame
@@ -13,16 +16,52 @@
 ### broad views
 ## 4/10
 ### marching camera rays through the scene
+**Input**: A set of camera poses {xc,yc,zc,γc,θc}n{xc​,yc​,zc​,γc​,θc​}n​
+
+**Output**: A bundle of rays for every pose {vo,vd}H×W×n{vo​,vd​}H×W×n​
+
+
+![[Pasted image 20250827100702.png]]
+![[Pasted image 20250827100727.png]]
 ## 5/10
 ### collecting query points
+
+**Input**: A bundle of rays for every pose {vo,vd}H×W×n{vo​,vd​}H×W×n​
+
+**Output**: A set of 3D query points {xp,yp,zp}n×m×H×W{xp​,yp​,zp​}n×m×H×W​
+
+![[Pasted image 20250827100751.png]]
 ## 6/10
 ### projecting query points to high dimensional space
+
+**Input**: A set of 3D query points {xp,yp,zp}n×m×H×W{xp​,yp​,zp​}n×m×H×W​
+
+**Output**: A set of query points embedded into dd-dimensional space {x1,x2,...,xd}n×m×H×W{x1​,x2​,...,xd​}n×m×H×W​
 ## 7/10
 ### neural network inference and volume rendering
+
+#### nn inference:
+
+**Input** A set of 3D query points (after positional encoding) {x1,x2,...,xd}n×m×H×W{x1​,x2​,...,xd​}n×m×H×W​
+
+**Output** RGB colour and volume density for every query point {RGB,σ}n×m×H×W{RGB,σ}n×m×H×W​
+
+
+#### volume rendering
+**Input** A set of 3D query points (after positional encoding) + their volume profile + RGB value {x1,x2,...,xd,RGB,σ}n×m×H×W{x1​,x2​,...,xd​,RGB,σ}n×m×H×W​
+
+**Output** A set of rendered images (one per pose) {H,W}n{H,W}n
 ## 8/10
 ### computing the loss
-## 9/10
+**Input** A set of rendered images (one per pose) {H,W}n{H,W}n​ and a set of ground truth images (one per pose) {H,W}ngt{H,W}ngt​
 
+**Output** L2 loss between the inputs, a single scalar {l}n{l}n​
+![[Pasted image 20250827101016.png]]
+![[Pasted image 20250827101033.png]]
+
+
+![[6p4i6y.gif]]
+## 9/10
 ## 10/10
 
 
@@ -37,7 +76,10 @@ references:
 8. [Creating Full Body Deepfakes by Combining Multiple NeRFs - Unite.AI](https://www.unite.ai/creating-full-body-deepfakes-by-combining-multiple-nerfs/)**
 9. [Paper Summary: “BlockNeRF: Scalable Large Scene Neural View Synthesis” | Document My Data Science Journey](https://riven314.github.io/alexlauwh314/paper/computer-graphics/2022/03/06/BlockNeRF.html)
 10. [38  Representing Images and Geometry – Foundations of Computer Vision](https://visionbook.mit.edu/homogeneous_coordinates.html)
+11. https://developer.nvidia.com/blog/getting-started-with-nvidia-instant-nerfs/
 
 implementation: 
-1. [NVlabs/instant-ngp: Instant neural graphics primitives: lightning fast NeRF and more](https://github.com/NVlabs/instant-ngp)
-2. [Instant Neural Graphics Primitives with a Multiresolution Hash Encoding](https://nvlabs.github.io/instant-ngp/)
+12. [NVlabs/instant-ngp: Instant neural graphics primitives: lightning fast NeRF and more](https://github.com/NVlabs/instant-ngp)
+13. [Instant Neural Graphics Primitives with a Multiresolution Hash Encoding](https://nvlabs.github.io/instant-ngp/)
+
+14. [CS5670 Project 5 -- NeRF](https://www.cs.cornell.edu/courses/cs5670/2022sp/projects/pa5/)

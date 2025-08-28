@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6c79b027a8be8150",
+        "id": "95e09e09b26fc060",
         "type": "tabs",
         "children": [
           {
-            "id": "bf2bdd8ed4c88685",
+            "id": "4837ca5cdd43353a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paper_reading/nerf-ppt/nerf(neural radiance fields).md",
+                "file": "computer-vision-research/coding-todo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nerf(neural radiance fields)"
+              "title": "coding-todo"
             }
           }
         ]
@@ -35,7 +35,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e459b8af0242bb2f",
+            "id": "460bf249b9daa499",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "037fc630244255f6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +58,7 @@
             }
           },
           {
-            "id": "db57cce370784096",
+            "id": "14aebc1a964b7d1b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -63,23 +73,13 @@
               "icon": "lucide-search",
               "title": "Search"
             }
-          },
-          {
-            "id": "460bf249b9daa499",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7fecce4379b7eaa5",
@@ -90,11 +90,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d52dbe83969f213e",
+            "id": "78693f5bda4f08a5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "paper_reading/nerf-ppt/nerf(neural radiance fields).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,24 +105,40 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for nerf(neural radiance fields)"
             }
           },
           {
-            "id": "134d633947eae2e8",
+            "id": "2500e6eaeeb4fca8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "paper_reading/nerf-ppt/nerf(neural radiance fields).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from nerf(neural radiance fields)"
             }
           },
           {
-            "id": "90c958938d494794",
+            "id": "67b69d81ed14828d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "paper_reading/nerf-ppt/nerf(neural radiance fields).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of nerf(neural radiance fields)"
+            }
+          },
+          {
+            "id": "86968ac3ab2fa248",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -134,26 +151,12 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
-          },
-          {
-            "id": "34959abd2439c01c",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -168,46 +171,49 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "bf2bdd8ed4c88685",
+  "active": "4837ca5cdd43353a",
   "lastOpenFiles": [
-    "paper_reading/nerf/nerf.md",
-    "paper_reading/nerf-ppt/nerf(neural radiance fields).md",
-    "paper_reading/nerf-ppt",
-    "paper_reading/pvnet/research_papers/how to read a paper.md",
-    "placement/notes.md",
-    "todo/Tasks.md",
-    "README.md",
-    "paper_reading/diffusion_models/notes.md",
-    "paper_reading/pvnet/research_papers/Posenet.md",
-    "Extra/notes/useful articles.md",
-    "Extra/notes/teaching strategy.md",
-    "computer-vision-research/phase-1/notes.md",
-    "computer-vision-research/phase-1/quaterions/quaterions.md",
     "computer-vision-research/phase-2/notes..md",
-    "computer-vision-research/phase-2/Pasted image 20250826070531.png",
+    "computer-vision-research/coding-todo.md",
+    "computer-vision-research/phase-3",
+    "computer-vision-research/phase-1/Phase-I.pdf",
+    "computer-vision-research/phase-1/notes.md",
+    "placement/notes.md",
+    "Recording 20250828183511.m4a",
+    "README.md",
+    "Untitled.base",
+    "todo/Tasks.md",
+    "paper_reading/nerf/nerf.md",
+    "paper_reading/diffusion_models/notes.md",
+    "Extra/notes/computer-vision.md",
+    "Extra/notes/lambda calculus.md",
+    "Extra/notes/useful articles.md",
     "Extra/notes/YOLO.md",
+    "Extra/notes/teaching strategy.md",
+    "computer-vision-research/phase-2/Pasted image 20250826070531.png",
+    "computer-vision-research/phase-1/Pasted image 20250823180407.png",
+    "computer-vision-research/progress-updates/ppt7C5D.tmp",
+    "computer-vision-research/progress-updates/ppt3F8C.tmp",
+    "computer-vision-research/progress-updates/28-08-2025.pptx",
+    "computer-vision-research/progress-updates/~$28-08-2025.pptx",
+    "computer-vision-research/progress-updates",
+    "computer-vision-research/New folder",
+    "paper_reading/pvnet/Untitled 1.md",
+    "paper_reading/pvnet/Untitled.md",
+    "paper_reading/nerf-ppt/nerf(neural radiance fields).md",
+    "paper_reading/nerf-ppt/78472235-d1010d80-7769-11ea-9be9-51365180e063.gif",
+    "paper_reading/nerf-ppt/6p4i6y.gif",
+    "paper_reading/nerf-ppt/Pasted image 20250827101044.png",
+    "paper_reading/nerf-ppt/Pasted image 20250827101033.png",
+    "paper_reading/nerf-ppt/Pasted image 20250827101016.png",
+    "paper_reading/nerf-ppt/Pasted image 20250827100751.png",
+    "paper_reading/nerf-ppt/Pasted image 20250827100727.png",
+    "paper_reading/nerf-ppt/Pasted image 20250827100702.png",
+    "paper_reading/pvnet/research_papers/how to read a paper.md",
+    "paper_reading/pvnet/research_papers/Posenet.md",
+    "computer-vision-research/phase-1/quaterions/quaterions.md",
     "Extra/notes/Untitled 1.md",
     "Extra/notes/Untitled.md",
-    "computer-vision-research/phase-2",
-    "Extra/notes/lambda calculus.md",
-    "Extra/notes/computer-vision.md",
-    "computer-vision-research/phase-1/Phase-I.pdf",
-    "computer-vision-research/phase-1/Untitled 1.base",
-    "computer-vision-research/phase-1/Untitled.base",
-    "paper_reading/nerf/Pasted image 20250819060118.png",
-    "paper_reading/nerf/Pasted image 20250819060045.png",
-    "computer-vision-research/phase-1/Pasted image 20250823180735.png",
-    "computer-vision-research/phase-1/Pasted image 20250823180726.png",
-    "computer-vision-research/phase-1/Pasted image 20250823180407.png",
-    "Untitled.base",
-    "Extra/image.png",
-    "paper_reading/nerf/Pasted image 20250819060136.png",
-    "computer-vision-research/phase-1",
-    "computer-vision-research/phase-1/quaterions/Pasted image 20250821123129.png",
-    "computer-vision-research/phase-1/quaterions/Pasted image 20250821123111.png",
-    "computer-vision-research/quaterions/Untitled.base",
-    "computer-vision-research/quaterions/Untitled 1.base",
-    "computer-vision-research/phase-1/quaterions",
     "2025-08-21.md",
     "Untitled.md",
     "Extra/NeRF.md",

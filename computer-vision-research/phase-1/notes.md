@@ -10,7 +10,7 @@
 - [x] key-points
 - [x] coordinate frames, transformations
 - [x] revision of libraries and image processing
-- [ ] quaternions
+- [x] quaternions
 
 
 
