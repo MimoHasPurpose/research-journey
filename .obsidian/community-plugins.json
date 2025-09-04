@@ -1,4 +1,6 @@
 [
   "quickadd",
-  "embed-code-file"
+  "embed-code-file",
+  "obsidian-extract-pdf-highlights",
+  "pdf-annotator"
 ]

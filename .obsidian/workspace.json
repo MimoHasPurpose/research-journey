@@ -4,41 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "95e09e09b26fc060",
+        "id": "b28f559d7bc3ebe4",
         "type": "tabs",
-        "dimension": 63.56749311294766,
         "children": [
           {
-            "id": "4837ca5cdd43353a",
+            "id": "3c822a4ef7f498c1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "computer-vision-research/phase-3/pose-estimation.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "pose-estimation"
-            }
-          }
-        ]
-      },
-      {
-        "id": "080bec8dda213a4b",
-        "type": "tabs",
-        "dimension": 36.43250688705234,
-        "children": [
-          {
-            "id": "383296f943c53470",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer-vision-research/phase-3/paper summary.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "paper summary"
+              "title": "New tab"
             }
           }
         ]
@@ -201,13 +177,23 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-extract-pdf-highlights:PDF Highlights": false
     }
   },
-  "active": "383296f943c53470",
+  "active": "3c822a4ef7f498c1",
   "lastOpenFiles": [
     "computer-vision-research/phase-3/pose-estimation.pdf",
     "computer-vision-research/phase-3/paper summary.md",
+    "computer-vision-research/phase-3/Pasted image 20250904214052.png",
+    "computer-vision-research/phase-3/Pasted image 20250904214032.png",
+    "computer-vision-research/phase-3/Pasted image 20250904214018.png",
+    "computer-vision-research/phase-3/Untitled.base",
+    "computer-vision-research/phase-3/Untitled.md",
+    "Highlights for pose-estimation.md",
+    "paper_reading/nerf-ppt/78472235-d1010d80-7769-11ea-9be9-51365180e063.gif",
+    "paper_reading/nerf-ppt/6p4i6y.gif",
+    "Untitled.md",
     "placement/notes.md",
     "placement",
     "computer-vision-research/coding-todo.md",
@@ -221,7 +207,6 @@
     "computer-vision-research/progress-updates/pptD29D.tmp",
     "computer-vision-research/progress-updates/ppt73E1.tmp",
     "computer-vision-research/progress-updates/ppt6624.tmp",
-    "computer-vision-research/progress-updates/ppt24EB.tmp",
     "computer-vision-research/phase-1/notes.md",
     "README.md",
     "todo/Tasks.md",
@@ -236,20 +221,12 @@
     "computer-vision-research/phase-1/Pasted image 20250823180407.png",
     "paper_reading/pvnet/Untitled 1.md",
     "paper_reading/pvnet/Untitled.md",
-    "paper_reading/nerf-ppt/78472235-d1010d80-7769-11ea-9be9-51365180e063.gif",
-    "paper_reading/nerf-ppt/6p4i6y.gif",
     "paper_reading/nerf-ppt/Pasted image 20250827101044.png",
     "paper_reading/nerf-ppt/Pasted image 20250827101033.png",
-    "paper_reading/nerf-ppt/Pasted image 20250827101016.png",
-    "paper_reading/nerf-ppt/Pasted image 20250827100751.png",
-    "paper_reading/nerf-ppt/Pasted image 20250827100727.png",
     "paper_reading/pvnet/research_papers/how to read a paper.md",
     "paper_reading/pvnet/research_papers/Posenet.md",
     "computer-vision-research/phase-1/quaterions/quaterions.md",
     "Extra/notes/Untitled 1.md",
-    "Extra/notes/Untitled.md",
-    "2025-08-21.md",
-    "Untitled.md",
-    "Extra/NeRF.md"
+    "Extra/notes/Untitled.md"
   ]
 }

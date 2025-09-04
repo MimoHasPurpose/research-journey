@@ -72,15 +72,82 @@ implementation/advantages/disadvantes/problems they solve.
 
 ## RGB-BASED input image methods:
 
-rgb contains rich color and texture info  which facilitates network to extract coarse and fine features of image+
+rgb contains rich color and texture info  which facilitates network to extract coarse and fine features of image and enhance networks perception.
+- 
 #### Coordinate correspondence-based methods:
-
+![[Pasted image 20250904214018.png]]
 ccbo maps b/w 2d images and 3d space.
 (dense or sparse correspondance)
+by training deep network to predict 3d spatial location of pixel points in image.
+target pose is computed using RANSAC and PnP algo.
+
+#### pix2pose:
+2019
+pose est for poorly textured objects
+by mappin b/w coordinates.
+utilizes codec structure to extract coarse and delicate features.
+uses jump connection during decoding 
+
+#### PVNET
+method for occlusions or truncation of objects in a image.
+pixel-level vectors pointing to keypoints
+allows network 
+doesn't propose a method to deal with symmetric objects.
+
+
+#### Hybrid-pose algorithm
+intermediate feature prediction network and a pose regression network
+not only uses keypoints as intermediate representations but incorporates edge vectors and symmetry correspondance to capture richer geometric info.
+
+- designs an optimization submodule that uses gm robust norms to enhance robustness of estiamtion.
+- practical me: requires generating keypiont and symmetry labels and providing segmentation templts and pvnet data.
+
+
+#### NERF pose:
+REPRESENTS objects 3d shape and color as implicity function and optimizing it via multi-view image training.
+due to this robust in processing complex scenes.
+volume rendering required resources.
+
+
+##### SOPOSE:
+enhances representation by self-obscuration info
+and a two layer observer centered representation structure.
+doubt:
+
+The first layer deals with the correspondence between visible points and their projections, and the second layer utilizes a self-attention mechanism [29] to gen- erate a self-obscuring perceptual map to integrate the occlusion in- formation
+doubt: 
+SO-Pose introduces a cross-layer consistency loss term to align the self-obscuring, the correspondence field, and the 6D pose to improve the accuracy and robustness of the pose estima- tion. H
+
+##### Efficient pose:
+balances computational efficiency with performance by scaling depth, width, and resolution.
+it adds sub-networks to efficientNet.
+to predict object rotation and translation to recover rotation and translation information.
+utilizes: pose loss and feature loss.
+
+##### CosyPose:
+reconstructs before regressiong.
+generates pose hypotheses from a single view then matches these hypotheses across different images to jiontly estimae camerea viewpoint and ojbect pose.
+uses shared encoder and 2 seperarte decoder to predict self-occlusion info and 2d-3d point correspondences.
+###### improved single view and multi-view 6d pose estimation on YCB video and T-LESS datasets.
+
+
+##### DPOD
+focuses more on estimating and refining the pose of individual objects using deep learning to compute 6d posees throught 2d-3d correspondence maps.
+- uses online data generation, background enhancement. 
+- ##### creates a bidirectional mapping through correspondence texture mapping.
+
+#### CheckerPose
+
+improves matching accuracy of corresponding ponits in 2d images by sampling critical points on surface of 3d objects using GNN.
 
 
 
 #### feature-based methods:
+
+
+![[Pasted image 20250904214032.png]]
+
+classical and widely used technique (utilizes pre-defined object templates)
 
 
 
@@ -88,9 +155,15 @@ ccbo maps b/w 2d images and 3d space.
 
 #### template-based methods
 
+![[Pasted image 20250904214052.png]]
 
 
+#### vitPose
 
+#### OSOP
+#### PoseRBPF
+
+#### GSPOSE
 
 ## pose estimation of unseen objects and articulated objects
 
@@ -107,16 +180,45 @@ datasets having different pose changes, complex backgrounds , occlusions and noi
 ## Instance level dataset:
 
 1. linemod dataset
-2. occlusion lineMod
-3. T-less
+	- Standardized benchmark dataset for task of object pose estimation.
+	- covering 15 common everyday objects.
+	- each of which has 3d model , rgb-d images from multiple viewpoints.
+	- partially occluded objects , complex backgrounds.
+	- unified benchmark for comparision and evaluation of algos.
+	-
+2. occlusion lineMod: 
+     - extension of linemod, designed for occlusion.
+     - 8 classes.
+     
+3. T-less:
+	- task of pose estimation of untextured industrial objects 
+	- 20 obj
+	- rgb-d imaeg data
+	- diff lightining condition
+	- higly symmetric 
+	- weakly textured
+	- good for industrial setups
+	
 4. YCB-video
-5. 
+	- 21 obj
+	- from ycb(yale, cmu, berkley) objects and models set
+	- caputres multi-view pose changes of obj in a variety of backgrounds, lightning conditions and occlusions.
+	
+ 
 
 ## Category level:
-1. CAMERA25
+1. CAMERA25:
+	- used for training and evaluation of synthetic data.
+	- synthetic images: 25obj.
+	- initial training
 2. real275
+	- 275 3d object models of diff classes.
+	- multi-view images and corresponding real 5d object poselabels 
+	
 3. Wild6D
-
+	- pose estimation of unlabeled obj in ral world scenes.
+	- lareg number of ral images : capture multiple views of objets.
+	- 
 
 ## Unseen object datasets:
 1. OnePose: large amount of robot data, through AR tools, (robots center position, dimensions around z-axis, rotation angle, camera pose information, dataset contains high resolution images take from multiple viewpoints also, reconstruced sparse point clouds and 2d keypoints)
@@ -139,7 +241,7 @@ datasets having different pose changes, complex backgrounds , occlusions and noi
 7. VSD
 8. MSSD
 9. MSPD
-10. 
+
 
 Note: category level approaches focus more on evaluating translational and angular errors.
 
