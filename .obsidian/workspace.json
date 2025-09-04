@@ -6,19 +6,39 @@
       {
         "id": "95e09e09b26fc060",
         "type": "tabs",
+        "dimension": 63.56749311294766,
         "children": [
           {
             "id": "4837ca5cdd43353a",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "computer-vision-research/phase-3/pose-estimation.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "pose-estimation"
+            }
+          }
+        ]
+      },
+      {
+        "id": "080bec8dda213a4b",
+        "type": "tabs",
+        "dimension": 36.43250688705234,
+        "children": [
+          {
+            "id": "383296f943c53470",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-vision-research/coding-todo.md",
+                "file": "computer-vision-research/phase-3/paper summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "coding-todo"
+              "title": "paper summary"
             }
           }
         ]
@@ -79,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7fecce4379b7eaa5",
@@ -95,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "paper_reading/nerf-ppt/nerf(neural radiance fields).md",
+                "file": "computer-vision-research/phase-3/paper summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +126,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for nerf(neural radiance fields)"
+              "title": "Backlinks for paper summary"
             }
           },
           {
@@ -114,12 +135,24 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "paper_reading/nerf-ppt/nerf(neural radiance fields).md",
+                "file": "computer-vision-research/phase-3/paper summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from nerf(neural radiance fields)"
+              "title": "Outgoing links from paper summary"
+            }
+          },
+          {
+            "id": "58a9129243c7bb02",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "computer-vision-research/phase-3/pose-estimation.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "pose-estimation"
             }
           },
           {
@@ -156,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 785.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -171,17 +204,26 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "4837ca5cdd43353a",
+  "active": "383296f943c53470",
   "lastOpenFiles": [
-    "computer-vision-research/phase-2/notes..md",
-    "computer-vision-research/coding-todo.md",
-    "computer-vision-research/phase-3",
-    "computer-vision-research/phase-1/Phase-I.pdf",
-    "computer-vision-research/phase-1/notes.md",
+    "computer-vision-research/phase-3/pose-estimation.pdf",
+    "computer-vision-research/phase-3/paper summary.md",
     "placement/notes.md",
-    "Recording 20250828183511.m4a",
+    "placement",
+    "computer-vision-research/coding-todo.md",
+    "computer-vision-research/phase-2/notes..md",
+    "paper_reading/nerf-ppt/nerf(neural radiance fields).md",
+    "paper_reading/nerf/Pasted image 20250819060136.png",
+    "computer-vision-research/phase-1/Phase-I.pdf",
+    "computer-vision-research/progress-updates/ppt3807.tmp",
+    "computer-vision-research/progress-updates/ppt22B5.tmp",
+    "computer-vision-research/progress-updates/ppt6697.tmp",
+    "computer-vision-research/progress-updates/pptD29D.tmp",
+    "computer-vision-research/progress-updates/ppt73E1.tmp",
+    "computer-vision-research/progress-updates/ppt6624.tmp",
+    "computer-vision-research/progress-updates/ppt24EB.tmp",
+    "computer-vision-research/phase-1/notes.md",
     "README.md",
-    "Untitled.base",
     "todo/Tasks.md",
     "paper_reading/nerf/nerf.md",
     "paper_reading/diffusion_models/notes.md",
@@ -192,15 +234,8 @@
     "Extra/notes/teaching strategy.md",
     "computer-vision-research/phase-2/Pasted image 20250826070531.png",
     "computer-vision-research/phase-1/Pasted image 20250823180407.png",
-    "computer-vision-research/progress-updates/ppt7C5D.tmp",
-    "computer-vision-research/progress-updates/ppt3F8C.tmp",
-    "computer-vision-research/progress-updates/28-08-2025.pptx",
-    "computer-vision-research/progress-updates/~$28-08-2025.pptx",
-    "computer-vision-research/progress-updates",
-    "computer-vision-research/New folder",
     "paper_reading/pvnet/Untitled 1.md",
     "paper_reading/pvnet/Untitled.md",
-    "paper_reading/nerf-ppt/nerf(neural radiance fields).md",
     "paper_reading/nerf-ppt/78472235-d1010d80-7769-11ea-9be9-51365180e063.gif",
     "paper_reading/nerf-ppt/6p4i6y.gif",
     "paper_reading/nerf-ppt/Pasted image 20250827101044.png",
@@ -208,7 +243,6 @@
     "paper_reading/nerf-ppt/Pasted image 20250827101016.png",
     "paper_reading/nerf-ppt/Pasted image 20250827100751.png",
     "paper_reading/nerf-ppt/Pasted image 20250827100727.png",
-    "paper_reading/nerf-ppt/Pasted image 20250827100702.png",
     "paper_reading/pvnet/research_papers/how to read a paper.md",
     "paper_reading/pvnet/research_papers/Posenet.md",
     "computer-vision-research/phase-1/quaterions/quaterions.md",
@@ -216,8 +250,6 @@
     "Extra/notes/Untitled.md",
     "2025-08-21.md",
     "Untitled.md",
-    "Extra/NeRF.md",
-    "Extra/dynamic-relu.md",
-    "paper_reading/pvnet/research_papers/pvnet.md"
+    "Extra/NeRF.md"
   ]
 }
