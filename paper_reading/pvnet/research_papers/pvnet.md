@@ -108,7 +108,7 @@ Third, the fully connected layers in the original ResNet-18 are replaced with **
 
 ![](https://r2.noteddy.com/images/3fb1e631-eeda-48df-a9ea-3d7500e52561.png)
 
-- where w represents the parameters of PVNet, vk is the pre dicted vector, vk is the ground truth unit vector, and vkx and vky represent the two elements of vk, respec tively. For training semantic labels, a softmax cross-entropy loss is adopted. Note that during testing, we do not need the predicted vectors to be unit because the subsequent process ing uses only the directions of the vectors.
+- where w represents the parameters of PVNet, vk is the pre dicted vector, vk is the ground truth unit vector, and vkx and vky represent the two elements of vk, respec tively. For training semantic labels, a softmax cross-entropy loss is adopted. Note that during testing, we do not need the predicted vectors to be unit because the subsequent processing uses only the directions of the vectors.
     
 
 To prevent overfitting, we add synthetic images to the training set. For each object, we render 10000 images whose viewpoints are uniformly sampled. We further syn thesize another 10000 images using the “Cut and Paste” strategy proposed in [10]. The background of each synthetic image is randomly sampled fromSUN397[44]. Wealsoap ply online data augmentation including random cropping, resizing, rotation and color jittering during training. We set the initial learning rate as 0.001 and halve it every 20 epochs. All models are trained for 200 epochs
