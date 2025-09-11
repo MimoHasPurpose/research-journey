@@ -1,3 +1,0 @@
-- [ ] pvnet implementation
-- [ ] pnp algorithm 
-- [ ] image processing code revision and re-coding
