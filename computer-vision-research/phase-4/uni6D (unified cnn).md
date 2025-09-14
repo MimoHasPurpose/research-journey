@@ -53,3 +53,4 @@ reason we cant use single backbone lies in 3d vision projection equaltion.
 5. how is training done and on what?
 6. how did they design the single backbone?
 7. how are they using point cloud data.
+.
