@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "60b53030df4cd6f4",
+        "id": "f206f67f82b864c1",
         "type": "tabs",
         "children": [
           {
-            "id": "4ef551266dd4c120",
+            "id": "dc734162c4258127",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-vision-research/phase-4/uni6D (unified cnn).md",
+                "file": "review-paper/notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "uni6D (unified cnn)"
+              "title": "notes"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "7fecce4379b7eaa5",
@@ -184,9 +184,22 @@
       "obsidian-extract-pdf-highlights:PDF Highlights": false
     }
   },
-  "active": "4ef551266dd4c120",
+  "active": "dc734162c4258127",
   "lastOpenFiles": [
+    "review-paper/notes.md",
+    "review-paper/Pasted image 20251013103046.png",
+    "computer-vision-research/phase-5/any6d.md",
+    "review-paper",
+    "computer-vision-research/phase-5/Pasted image 20251008110313.png",
     "computer-vision-research/phase-4/uni6D (unified cnn).md",
+    "computer-vision-research/phase-5",
+    "paper_reading/nerf-ppt/nerf(neural radiance fields).md",
+    "paper_reading/nerf-ppt/6p4i6y.gif",
+    "Extra/notes/YOLO.md",
+    "Extra/notes/useful articles.md",
+    "Extra/notes/computer-vision.md",
+    "Extra/notes/lambda calculus.md",
+    "Extra/notes/teaching strategy.md",
     "computer-vision-research/phase-4",
     "computer-vision-research/phase-3/paper summary.md",
     "README.md",
@@ -204,33 +217,19 @@
     "computer-vision-research/phase-3/Untitled.base",
     "computer-vision-research/phase-3/Untitled.md",
     "paper_reading/nerf-ppt/78472235-d1010d80-7769-11ea-9be9-51365180e063.gif",
-    "paper_reading/nerf-ppt/6p4i6y.gif",
     "placement/notes.md",
     "placement",
-    "paper_reading/nerf-ppt/nerf(neural radiance fields).md",
     "paper_reading/nerf/Pasted image 20250819060136.png",
     "computer-vision-research/phase-1/Phase-I.pdf",
     "computer-vision-research/progress-updates/ppt3807.tmp",
     "computer-vision-research/progress-updates/ppt22B5.tmp",
-    "computer-vision-research/progress-updates/ppt6697.tmp",
-    "computer-vision-research/progress-updates/pptD29D.tmp",
     "computer-vision-research/phase-1/notes.md",
     "todo/Tasks.md",
     "paper_reading/nerf/nerf.md",
     "paper_reading/diffusion_models/notes.md",
-    "Extra/notes/computer-vision.md",
-    "Extra/notes/lambda calculus.md",
-    "Extra/notes/useful articles.md",
-    "Extra/notes/YOLO.md",
-    "Extra/notes/teaching strategy.md",
     "computer-vision-research/phase-2/Pasted image 20250826070531.png",
     "computer-vision-research/phase-1/Pasted image 20250823180407.png",
     "paper_reading/pvnet/Untitled 1.md",
-    "paper_reading/pvnet/Untitled.md",
-    "paper_reading/nerf-ppt/Pasted image 20250827101044.png",
-    "paper_reading/nerf-ppt/Pasted image 20250827101033.png",
-    "paper_reading/pvnet/research_papers/how to read a paper.md",
-    "computer-vision-research/phase-1/quaterions/quaterions.md",
-    "Extra/notes/Untitled 1.md"
+    "paper_reading/pvnet/Untitled.md"
   ]
 }
