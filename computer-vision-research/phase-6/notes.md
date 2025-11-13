@@ -40,8 +40,8 @@ bop paper: [link](https://arxiv.org/pdf/1808.08319)
 	 - first dataset of metal parts with simultaneous multi-target, occluded, and illumination changes.
 	 - The color homogeneity, textureless and light-reflecting properties raise great challenges for estimating the pose of the objects.
 
-8.   ClearPose: [link](https://arxiv.org/pdf/2203.03890): 
-	-  Transparent objects are ubiquitous in household settings and
+8. ClearPose: [link](https://arxiv.org/pdf/2203.03890): 
+	- Transparent objects are ubiquitous in household settings and
 	- pose distinct challenges for visual sensing and perception systems.
 	- The optical properties of transparent objects leave conventional 3D sensors
 	    alone unreliable for object depth and pose estimation. 
