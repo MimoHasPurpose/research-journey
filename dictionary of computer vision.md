@@ -1,0 +1,1 @@
+lambertian objects: 
