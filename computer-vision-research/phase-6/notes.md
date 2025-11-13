@@ -12,7 +12,7 @@ bop paper: [link](https://arxiv.org/pdf/1808.08319)
 2. IC-BIN:  [link 1. ](https://bop.felk.cvut.cz/datasets/#IC-BIN)[link 2. ](https://rkouskou.gitlab.io/research/6D_NBV.html)  images of two objects from IC-MI, in multiple locations with heavy occlusion , bin-picking scenario.
 
 3. Homebrewed-Database [link 1.](https://bop.felk.cvut.cz/datasets/#HB) 33 objects (17 toy, 8 household and 8 industry-relevant objects) captured in 13 scenes 
-	1. The dataset 
+	-  The dataset 
 		- Primesense Carmine 1.09 
 		-  Microsoft Kinect 2. 
    
@@ -41,7 +41,7 @@ bop paper: [link](https://arxiv.org/pdf/1808.08319)
 	 - The color homogeneity, textureless and light-reflecting properties raise great challenges for estimating the pose of the objects.
 
 8.   ClearPose: [link](https://arxiv.org/pdf/2203.03890): 
--  Transparent objects are ubiquitous in household settings and
+	-  Transparent objects are ubiquitous in household settings and
 	- pose distinct challenges for visual sensing and perception systems.
 	- The optical properties of transparent objects leave conventional 3D sensors
 	    alone unreliable for object depth and pose estimation. 
@@ -64,25 +64,26 @@ bop paper: [link](https://arxiv.org/pdf/1808.08319)
 		STD,  30 cluttered scenes composed of 50 ob-
 		jects with different materials from specular, transparent, to diffuse. 
 	
-12.. KeyPose: [link](https://sites.google.com/view/keypose/): 
+12. KeyPose: [link](https://sites.google.com/view/keypose/)
 	 - 15 clear objects in 5 classes, with 48k 3D-keypoint labeled images. 
 	 
-13.  TransCG: [link](https://arxiv.org/pdf/2202.08471) 
-- a large-scale real-world
-	dataset for transparent object depth completion
-- contains 57,715 RGB-D images from 130 different scenes. 
-	first large-scale, real-world dataset that provides ground
-	truth depth, surface normals, transparent masks in diverse and
-	cluttered scenes. 
--  The full dataset at: 	 www.graspnet.net/transcg.
+13. TransCG: [link](https://arxiv.org/pdf/2202.08471) 
+	-  a large-scale real-world
+		dataset for transparent object depth completion
+	-  contains 57,715 RGB-D images from 130 different scenes. 
+		first large-scale, real-world dataset that provides ground
+		truth depth, surface normals, transparent masks in diverse and
+		cluttered scenes. 
+	-  The full dataset at: [link](www.graspnet.net/transcg.)
 
 14. HouseCat6d: [link](https://sites.google.com/view/housecat6d)
--  addresses annotation quality and pose variety
+	-  addresses annotation quality and pose variety
 	
-15.  GraspNet/SuctionNet-1 billion
-	- [graspnet website]( https://graspnet.net/publications.html)
+15. GraspNet/SuctionNet-1 billion:
+
+	-  [graspnet website]( https://graspnet.net/publications.html)
 	-  dataset has scenes, models, densePointClouds, seal-label, wrench-label, suction collision label and each scene folder has objects id, rs_wrt_kn.npy, kinect folder having( rgb image, depth, label, annotations, meta, rect) camera inrinsics, camera_poses, camwrttable (camera pose wrt to table), realsense folder same as kinect.
-	- [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.pdf)
+	-  [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.pdf)
 
 
 ## Ongoing research problems:
