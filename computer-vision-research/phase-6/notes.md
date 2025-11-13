@@ -119,4 +119,9 @@ bop paper: [link](https://arxiv.org/pdf/1808.08319)
 
 ---
 
+### references:
 
+1.  bop benchmark for 6d pose estimation: https://arxiv.org/pdf/1808.08319
+2.  on evaluation of 6d object pose estimation https://cmp.felk.cvut.cz/~hodanto2/data/hodan2016evaluation.pdf
+3. model based training, detection and pose estimation: https://www.stefan-hinterstoisser.com/papers/hinterstoisser2012accv.pdf
+4. Detection and Fine 3D Pose Estimation of Texture-less Objects in RGB-D Images https://ieeexplore.ieee.org/document/7354005

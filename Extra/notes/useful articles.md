@@ -1,7 +1,0 @@
-[Welcome to the 🤗 Machine Learning for 3D Course - Hugging Face ML for 3D Course](https://huggingface.co/learn/ml-for-3d-course/unit0/introduction)
-[Applications of 3D Vision - Hugging Face Community Computer Vision Course](https://huggingface.co/learn/computer-vision-course/en/unit8/introduction/applications)
-[Neural Radiance Fields (NeRFs) - Hugging Face Community Computer Vision Course](https://huggingface.co/learn/computer-vision-course/en/unit8/nerf)
-[Hugging Face Diffusion Models Course - Hugging Face Diffusion Course](https://huggingface.co/learn/diffusion-course/en/unit0/1)
-[Hugging Face Diffusion Models Course](https://huggingface.co/learn/ml-for-3d-course/unit1/pipelines)
-[Run in notebook - Hugging Face ML for 3D Course](https://huggingface.co/learn/ml-for-3d-course/unit5/run-in-notebook)
-[capstone.ipynb - Colab](https://colab.research.google.com/github/dylanebert/ml-for-3d-course-notebooks/blob/main/capstone.ipynb#scrollTo=L5jx4-CPSdSM)
