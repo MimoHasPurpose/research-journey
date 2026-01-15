@@ -86,18 +86,7 @@ bop paper: [link](https://arxiv.org/pdf/1808.08319)
 	-  [paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.pdf)
 
 
-## Ongoing research problems:
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-11.
-12.
+
 
 ## Ongoing research problems:
 1. refinement: iterative refinement approach is used
