@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c3a32998a7f67b5b",
+        "id": "dc5028d90e5ac953",
         "type": "tabs",
         "children": [
           {
-            "id": "fb93d90110feeaa1",
+            "id": "557d8bb22aa4089b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,6 +19,62 @@
               },
               "icon": "lucide-file",
               "title": "notes"
+            }
+          },
+          {
+            "id": "caec81530e4b7ae0",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://sites.google.com/view/keypose/",
+                "title": "KeyPose: Multi-View 3D Labeling and Keypoint Estimation for Transparent Objects",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "KeyPose: Multi-View 3D Labeling and Keypoint Estimation for Transparent Objects"
+            }
+          },
+          {
+            "id": "819dd5458bf48af1",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://github.com/swtyree/hope-dataset",
+                "title": "GitHub - swtyree/hope-dataset: HOPE-Image and HOPE-Video 6-DOF pose datasets.",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "GitHub - swtyree/hope-dataset: HOPE-Image and HOPE-Video 6-DOF pose datasets."
+            }
+          },
+          {
+            "id": "c458a25a32b68803",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "http://rkouskou.gitlab.io/research/LCHF.html",
+                "title": "Latent-Class Hough Forests for Object Detection and Pose Estimation",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Latent-Class Hough Forests for Object Detection and Pose Estimation"
+            }
+          },
+          {
+            "id": "a4c2c669195f9244",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://bop.felk.cvut.cz/datasets/#TUD-L",
+                "title": "BOP: Benchmark for 6D Object Pose Estimation",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "BOP: Benchmark for 6D Object Pose Estimation"
             }
           }
         ]
@@ -184,24 +240,27 @@
       "obsidian-extract-pdf-highlights:PDF Highlights": false
     }
   },
-  "active": "fb93d90110feeaa1",
+  "active": "557d8bb22aa4089b",
   "lastOpenFiles": [
-    "review-paper-and-survey-paper/Pasted image 20251013103046.png",
+    "computer-vision-research/phase-6/notes.md",
+    "computer-vision-research/phase-7/notes.md",
+    "computer-vision-research/phase-5/any6d.md",
+    "paper_reading/any6d/any6d.md",
+    "semester-1/report.md",
+    "semester-1/final-final-synopsis.pdf",
     "review-paper-and-survey-paper/notes.md",
+    "review-paper-and-survey-paper/Pasted image 20251013103046.png",
     "Extra/image.png",
     "Extra/notes/useful articles.md",
     "Extra/notes/YOLO.md",
     "Extra/notes/teaching strategy.md",
     "Extra/notes/lambda calculus.md",
     "Extra/notes/computer-vision.md",
-    "computer-vision-research/phase-6/notes.md",
     "dictionary_of_computer_vision.md.md",
     "computer-vision-research/phase-6/paper.md",
     "dictionary_of_normal_terms.md.md",
     "computer-vision-research/phase-6/().md",
     "README.md",
-    "semester-1/report.md",
-    "semester-1/final-final-synopsis.pdf",
     "computer-vision-research/phase-6",
     "paper_reading/temp",
     "paper_reading/any6d/2503.18673v2.pdf",
@@ -211,8 +270,6 @@
     "paper_reading/pvn3d/2103.02242v1.pdf",
     "paper_reading/pvn3d",
     "semester-1",
-    "paper_reading/any6d/any6d.md",
-    "computer-vision-research/phase-5/any6d.md",
     "computer-vision-research/phase-5/Pasted image 20251008110313.png",
     "computer-vision-research/phase-4/uni6D (unified cnn).md",
     "paper_reading/nerf-ppt/nerf(neural radiance fields).md",
