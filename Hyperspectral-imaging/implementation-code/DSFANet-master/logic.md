@@ -1,0 +1,14 @@
+## method
+- first we take X, Y, GT and calculate diff from utils.cva by X, Y
+- CVAdiff.png: shape is 463,241, cmap ="gray"
+- calling main function(X,Y,GT,diff)
+- main():
+    - train_num=2000, max_iters=100
+    - lr=13-3
+    - index
+    - XData, YData
+    - training:
+    - 100 iters
+    - loss calculated
+    - grads
+    - optimizer
