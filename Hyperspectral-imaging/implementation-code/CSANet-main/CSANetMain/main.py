@@ -82,7 +82,7 @@ padded_data2 = np.pad(whole_data2, ((PATCH_LENGTH, PATCH_LENGTH), (PATCH_LENGTH,
                          'constant', constant_values=0)
 
 for index_iter in range(ITER):
-    net = Finalmodel()
+    net = Finalmodel().to(device)
     optimizer = optim.Adam(net.parameters(), lr=lr)  # , weight_decay=0.0001)
     time_1 = int(time.time())
     np.random.seed(seeds[index_iter])
@@ -101,15 +101,16 @@ for index_iter in range(ITER):
                   whole_data1, whole_data2, PATCH_LENGTH, padded_data1, padded_data2, INPUT_DIMENSION1, INPUT_DIMENSION2, batch_size, gt)
 
 
-    #train.train(net, train_iter, valida_iter, loss, optimizer, device, epochs=num_epochs)
+    train.train(net, train_iter, valida_iter, loss, optimizer, device, epochs=num_epochs)
 
 
     def score_function(engine):
         val_loss = engine.state.metrics['nll']
         return -val_loss
     pred_test_fdssc = []
-    tic2 = time.clock()
-    newnet = torch.load("best.pth")
+    tic2 = time.perf_counter()
+    newnet = torch.load("best.pth"map_location=device)
+    newnet.to(device)
     with torch.no_grad():
         for X1, X2, y in all_iter:
             X1 = X1.to(device)
@@ -118,7 +119,7 @@ for index_iter in range(ITER):
             y_hat = newnet(X1,X2)
             # print(net(X))
             pred_test_fdssc.extend(np.array(y_hat.cpu().argmax(axis=1)))
-    toc2 = time.clock()
+    toc2 = time.perf_counter()
 
     collections.Counter(pred_test_fdssc)
     gt_test = gt[total_indices]-1
